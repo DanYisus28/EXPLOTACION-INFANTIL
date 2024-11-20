@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #000;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.header-section {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+}
+
+
+.header-container .logo a {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+
+.nav-links a {
+    color: white;
+    font-size: 1.2em;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+#objetivos {
+    background-image: url('../img/bck02.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+}
+
+#objetivos::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 0;
+}
+
+.section-container {
+    width: 80%;
+    max-width: 1200px;
+    z-index: 10;
+    text-align: center;
+}
+
+#objetivos h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#objetivos p {
+    font-size: 1.2em;
+    margin-bottom: 0px;
+}
+
+.objective-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.objective-item {
+    background-color: rgba(25, 25, 25, 0.624);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
